@@ -1,6 +1,6 @@
-# 🏢 Hoppe-home Portfolio Dashboard
+# 🏢 Hoppe-GitHub Portfolio Dashboard
 
-Enterprise dashboard for projects tracked under the Hoppe-home portfolio.
+Enterprise dashboard for projects tracked under the Hoppe-GitHub portfolio.
 
 ---
 
@@ -8,19 +8,10 @@ Enterprise dashboard for projects tracked under the Hoppe-home portfolio.
 
 | Field | Value |
 |---|---|
-| Portfolio Name | Hoppe-home |
-| GitHub URL | [https://github.com/Hoppe-home](https://github.com/Hoppe-home) |
+| Portfolio Name | Hoppe-GitHub |
 | Owner | `donnyandjoern-debug` |
+| Primary Purpose | Project delivery with budget and effort transparency |
 | Reporting Scope | Open projects, spend allocation, and hours by repository |
-
----
-
-## Members
-
-| Member | Role | Account |
-|---|---|---|
-| donnyandjoern-debug | Owner | Family Hoppe main (Mac) |
-| Joern _(account pending creation)_ | Member | Windows VS Code (planned) |
 
 ---
 
@@ -28,7 +19,7 @@ Enterprise dashboard for projects tracked under the Hoppe-home portfolio.
 
 | Project | Repository | Status | Monthly Budget | Budget Used | Hours (Month) | Owner |
 |---|---|---|---:|---:|---:|---|
-| _(add project)_ | `Hoppe-home/repo-name` | 🟢 On Track / 🟡 At Risk / 🔴 Blocked | $0 | $0 | 0h | |
+| _(add project)_ | `Hoppe-GitHub/repo-name` | 🟢 On Track / 🟡 At Risk / 🔴 Blocked | $0 | $0 | 0h | |
 
 ---
 
@@ -47,16 +38,9 @@ Enterprise dashboard for projects tracked under the Hoppe-home portfolio.
 
 | Repository | Coding Hours | Chat Hours | Total Hours | Source |
 |---|---:|---:|---:|---|
-| `Hoppe-home/repo-name` | 0.0 | 0.0 | 0.0 | VS Code + Online Chat |
+| `Hoppe-GitHub/repo-name` | 0.0 | 0.0 | 0.0 | VS Code + Online Chat |
 
----
-
-## Portfolio Governance Checklist
-
-- [ ] Keep open projects table current
-- [ ] Review budget variance monthly
-- [ ] Ensure all active repos have owners and status
-- [ ] Align hour totals with [budget/tracking.md](../budget/tracking.md)
+> Keep monthly entries aligned with the central ledger in [budget/tracking.md](../budget/tracking.md).
 
 ---
 
