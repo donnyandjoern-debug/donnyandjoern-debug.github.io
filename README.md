@@ -1,75 +1,47 @@
-# 🏠 Family Hoppe — Personal Library
+# 📊 Personal Portfolio Command Center
 
-> **Central brain for Family Hoppe.** Instant access to accounts, budgets, projects, and GitHub knowledge — clean, professional, and precise.
+> **Enterprise dashboard for admin oversight:** budget control, project status, and Copilot work-hour allocation by repository.
 
 ---
 
-## 📚 Quick Navigation
+## Executive Dashboard
 
-| Section | Description |
+| KPI | Current Value | Source |
+|---|---:|---|
+| Active Billing Accounts | 1 active, 1 planned | [Accounts](./accounts/README.md) |
+| Monthly Baseline Spend | $35 current / $45 planned | [Budget Overview](./budget/README.md) |
+| Open Project Portfolios | 2 (Hoppe-home, Hoppe-GitHub) | [Projects Dashboard](./projects/README.md) |
+| Time Allocation Tracking | Enabled (per repo + per project) | [Tracking Ledger](./budget/tracking.md) |
+
+---
+
+## What Matters in This Repository
+
+1. **Financial governance** — budget, spending limits, and variance tracking
+2. **Open project visibility** — portfolio status and budget allocation by project
+3. **Work-hour allocation** — coding/chat effort split by repository and project
+4. **Professional reporting** — clean, auditable tables ready for operational review
+
+---
+
+## Portfolio + Budget Snapshot
+
+| Portfolio | Open Projects | Monthly Budget Allocation | Hours Allocation Tracking |
+|---|---:|---:|---|
+| [Hoppe-home](./projects/hoppe-home.md) | 0 (to be populated) | $0 (to be allocated) | ✅ |
+| [Hoppe-GitHub](./projects/hoppe-github.md) | 0 (to be populated) | $0 (to be allocated) | ✅ |
+| **Total** | **0** | **$0 allocated** | **✅** |
+
+> Update open projects and budget allocations in [projects/README.md](./projects/README.md) and [budget/tracking.md](./budget/tracking.md).
+
+---
+
+## Quick Navigation
+
+| Section | Purpose |
 |---|---|
-| [👥 Accounts](./accounts/README.md) | GitHub accounts overview (Family Hoppe & Joern) |
-| [💰 Budget](./budget/README.md) | Membership costs & spending tracker |
-| [📁 Projects](./projects/README.md) | All projects under Hoppe-home & personal |
-| [📖 Guides](./guides/README.md) | Copilot, GitHub, and workflow quick-reference guides |
-
----
-
-## 🧠 At a Glance
-
-### GitHub Accounts
-
-| Account | Role | Plan |
-|---|---|---|
-| [donnyandjoern-debug](https://github.com/donnyandjoern-debug) | **Family Hoppe main** — Mac / primary workspace | Copilot Pro ($10/mo) + $25/mo budget |
-| Joern _(profile pending creation)_ | **Windows VS Code** — secondary workspace | Copilot Pro ($10/mo, planned) |
-
-### Monthly Budget Summary
-
-| Item | Cost |
-|---|---|
-| Copilot Pro — Family Hoppe main | $10 / month |
-| Copilot Pro — Joern (planned) | $10 / month |
-| GitHub budget (actions, packages, etc.) | $25 / month |
-| **Total** | **$45 / month** |
-
----
-
-## 🗂 Repository Structure
-
-```
-personal/
-├── README.md               ← You are here (main dashboard)
-├── accounts/
-│   ├── README.md           ← Accounts overview
-│   ├── family-hoppe.md     ← donnyandjoern-debug account details
-│   └── joern-hoppe.md      ← Joern@Hoppe.home account details
-├── budget/
-│   ├── README.md           ← Budget overview
-│   └── tracking.md         ← Monthly spend tracker
-├── projects/
-│   ├── README.md           ← All projects index
-│   └── hoppe-home.md       ← Hoppe-home org projects
-└── guides/
-    ├── README.md           ← Guides index
-    ├── copilot.md          ← GitHub Copilot tips & tricks
-    └── github-workflow.md  ← GitHub workflow best practices
-```
-
----
-
-## 🔍 Search Tips
-
-GitHub's built-in search makes this library instantly searchable:
-- Press **`t`** on any page to search files
-- Press **`/`** to focus the global search bar
-- Use `repo:donnyandjoern-debug/personal <keyword>` from any GitHub search
-
----
-
-## ✅ Principles
-
-1. **Personal data only** — all project code lives in [Hoppe-home](https://github.com/Hoppe-home)
-2. **Clean & precise** — no clutter, everything has a place
-3. **Both accounts supported** — brain and clean-up assistant for Family Hoppe and Joern
-4. **Up-to-date** — update this library whenever memberships, projects, or budgets change
+| [👥 Accounts](./accounts/README.md) | Account ownership and access model |
+| [💰 Budget](./budget/README.md) | Baseline budget and monthly spend controls |
+| [📈 Financial + Hours Ledger](./budget/tracking.md) | Monthly spend, project allocations, and Copilot hours |
+| [🗂 Projects Dashboard](./projects/README.md) | Open projects and portfolio-level reporting |
+| [📖 Guides](./guides/README.md) | Workflow standards and Copilot operating guidance |

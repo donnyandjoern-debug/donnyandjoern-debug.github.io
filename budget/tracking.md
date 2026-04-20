@@ -1,43 +1,48 @@
-# 📊 Monthly Spend Tracker — Family Hoppe
+# 📊 Financial + Hours Tracking Ledger
 
-Track actual GitHub spending month by month.
+Single source of truth for monthly spend and Copilot work-hour allocation by repository/project.
 
-> **Update this file** at the start of each month with the previous month's actual spend.
-
----
-
-## How to Check Your GitHub Spend
-
-1. Go to **GitHub.com → Settings → Billing and plans**
-2. Check "Usage this month" for Actions, Packages, and Codespaces
-3. Check invoices under "Payment history"
+> Update monthly during the first week of each new month.
 
 ---
 
-## Tracker
+## A) Monthly Financial Summary
 
-| Month | Copilot Pro (Donny) | Copilot Pro (Joern) | GitHub Budget Used | GitHub Budget Limit | Notes |
-|---|---|---|---|---|---|
-| April 2026 | $10 | — | — | $25 | First tracking month |
-
----
-
-## Targets
-
-| Goal | Target |
-|---|---|
-| Stay within GitHub budget | ≤ $25 / month |
-| Activate Joern Copilot Pro | When Windows VS Code setup is complete |
-| Review corporate membership need | Quarterly |
+| Month | Copilot (Main) | Copilot (Joern) | GitHub Usage Spend | Total Spend | Baseline Budget | Variance | Notes |
+|---|---:|---:|---:|---:|---:|---:|---|
+| April 2026 | $10 | $0 | $0 | $10 | $35 | -$25 | Initial baseline month |
 
 ---
 
-## Notes
+## B) Project Budget Allocation (by Repo)
 
-- If GitHub Actions usage approaches $20/month, review which workflows are consuming the most minutes.
-- Public repository Actions minutes are **free** — keep projects public where possible.
-- Codespaces can be expensive; prefer local VS Code where possible.
+| Month | Portfolio | Project | Repository | Budget Allocated | Actual Spend | Variance | Status |
+|---|---|---|---|---:|---:|---:|---|
+| April 2026 | Hoppe-home | _(add project)_ | `Hoppe-home/repo-name` | $0 | $0 | $0 | 🟢 |
+| April 2026 | Hoppe-GitHub | _(add project)_ | `Hoppe-GitHub/repo-name` | $0 | $0 | $0 | 🟢 |
 
 ---
 
-[← Back to budget overview](./README.md) | [← Back to main library](../README.md)
+## C) Copilot Work-Hours Allocation (Chat-Based)
+
+Track effort from:
+- VS Code Copilot Chat sessions
+- Online chat sessions (GitHub / web)
+
+| Month | Date | Source | Portfolio | Project | Repository | Activity Type | Hours | Session Ref | Notes |
+|---|---|---|---|---|---|---|---:|---|---|
+| April 2026 | 2026-04-20 | VS Code | Hoppe-home | _(add project)_ | `Hoppe-home/repo-name` | Coding / Planning / Debugging | 0.0 | Link or short ID | |
+| April 2026 | 2026-04-20 | Online Chat | Hoppe-GitHub | _(add project)_ | `Hoppe-GitHub/repo-name` | Coding / Planning / Debugging | 0.0 | Link or short ID | |
+
+---
+
+## D) Monthly Rollup (Hours by Repository)
+
+| Month | Repository | Coding Hours | Planning Hours | Debugging Hours | Total Hours |
+|---|---|---:|---:|---:|---:|
+| April 2026 | `Hoppe-home/repo-name` | 0.0 | 0.0 | 0.0 | 0.0 |
+| April 2026 | `Hoppe-GitHub/repo-name` | 0.0 | 0.0 | 0.0 | 0.0 |
+
+---
+
+[← Back to budget dashboard](./README.md) | [← Back to main library](../README.md)

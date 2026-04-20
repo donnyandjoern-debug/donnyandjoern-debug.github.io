@@ -1,46 +1,39 @@
-# 💰 Budget — Family Hoppe
+# 💰 Financial Control Dashboard
 
-Overview of all GitHub-related spending for Family Hoppe.
+Central budget governance for project delivery across portfolios.
 
 ---
 
-## Monthly Budget Summary
+## Monthly Budget Baseline
 
 | Item | Account | Cost | Status |
-|---|---|---|---|
-| Copilot Pro | donnyandjoern-debug (Mac) | $10 / month | ✅ Active |
-| Copilot Pro | Joern _(account pending creation)_ | $10 / month | 🟡 Planned |
-| GitHub budget (Actions, Packages, Codespaces) | donnyandjoern-debug | $25 / month | ✅ Active |
-| GitHub Enterprise / Corporate membership | — | TBD | 🔲 Not yet |
-| **Total (current)** | | **$35 / month** | |
-| **Total (when Joern active)** | | **$45 / month** | |
+|---|---|---:|---|
+| Copilot Pro | donnyandjoern-debug (Mac) | $10 | ✅ Active |
+| Copilot Pro | Joern _(account pending creation)_ | $10 | 🟡 Planned |
+| GitHub usage budget (Actions, Packages, Codespaces) | donnyandjoern-debug | $25 | ✅ Active |
+| **Total (current)** |  | **$35 / month** |  |
+| **Total (planned)** |  | **$45 / month** |  |
 
 ---
 
-## Budget Breakdown
+## Budget Allocation by Portfolio
 
-### GitHub Copilot Pro — $10/month per seat
-- AI code completion in VS Code
-- Copilot Chat (ask questions about code)
-- Copilot Coding Agent (autonomous issue resolution in the browser)
-- Copilot CLI, PR summaries, and more
+| Portfolio | Monthly Allocation | Actual Spend | Variance |
+|---|---:|---:|---:|
+| Hoppe-home | $0 | $0 | $0 |
+| Hoppe-GitHub | $0 | $0 | $0 |
+| **Total** | **$0** | **$0** | **$0** |
 
-### GitHub Budget — $25/month
-Used for:
-- **GitHub Actions** minutes beyond the free 2,000 min/month (public repos are free)
-- **GitHub Packages** storage beyond the free tier
-- **Codespaces** usage (cloud dev environments)
-- **GitHub Models** API calls if used beyond free quota
-
-### Future: Corporate Membership
-- No corporate membership yet
-- Will consider when project scale requires it (e.g., GitHub Advanced Security, Enterprise SSO)
+> Keep project-level spend and variance updated in [tracking.md](./tracking.md).
 
 ---
 
-## Spend Tracker
+## Financial Reporting Rules
 
-See [tracking.md](./tracking.md) for a month-by-month record.
+1. Allocate monthly budget by project before work starts.
+2. Track spend by repository and compare against allocation.
+3. Record Copilot coding/chat hours as labor input for each project.
+4. Review variance at least once per month and adjust allocations.
 
 ---
 
