@@ -1,52 +1,53 @@
-# donnyandjoern-debug — Family Hoppe Main Account
+# donnyandjoern-debug — Primary Owner Account
 
 ## Identity
 
 | Field | Value |
 |---|---|
 | GitHub username | `donnyandjoern-debug` |
-| Role | Primary / family account |
+| Role | Repository owner and primary tracked account |
 | Primary device | Mac |
 | Primary editor | VS Code (Mac) |
 | Organisation | [Hoppe-home](https://github.com/Hoppe-home) |
 
 ---
 
-## Memberships & Plans
+## Plans, Budget Baseline, and Tracking Scope
 
-| Plan | Cost | Notes |
-|---|---|---|
-| GitHub Free (base) | $0 / month | Unlimited public repos, 2,000 Actions minutes/month |
-| **Copilot Pro** | **$10 / month** | AI code completion, chat, agents |
-| **GitHub budget** | **$25 / month** | Extra Actions minutes, Packages storage, Codespaces, etc. |
-| **Total** | **$35 / month** | |
+| Item | Cost | Status | Notes |
+|---|---:|---|---|
+| GitHub base plan | $0 / month | ✅ Active | Base account plan |
+| Copilot Pro | $10 / month | ✅ Active | Known recurring personal cost |
+| GitHub usage budget reserve | $25 / month | ✅ Active baseline | Tracked by service category in [budget/README.md](../budget/README.md) |
+| **Total monthly baseline** | **$35 / month** |  | |
 
 ---
 
-## Repositories
+## Repository Tracking Intent
 
 | Repo | Description |
 |---|---|
-| [personal](https://github.com/donnyandjoern-debug/personal) | This library — personal data & Family Hoppe brain |
+| [personal](https://github.com/donnyandjoern-debug/personal) | Private owner dashboard for account/settings, spending, budget, and project-time tracking |
 
-> All project repositories live under the **[Hoppe-home](https://github.com/Hoppe-home)** organisation.
+> This repository is private and owner-focused; sharing access is optional and explicit.
 
 ---
 
-## Copilot Usage
+## General GitHub Settings to Keep Current
 
-- ✅ Copilot Pro active
-- Used in VS Code on Mac as the primary AI assistant
-- Copilot Coding Agent (cloud agent) enabled for autonomous issue resolution
-- See [guides/copilot.md](../guides/copilot.md) for tips
+- Billing profile and payment method status
+- Copilot plan/seat status and renewal timing
+- 2FA and recovery options verification
+- Primary org memberships and role changes
+- Primary devices/editors used for operational updates
 
 ---
 
 ## Notes
 
-- This account is the **owner** of the Hoppe-home organisation.
-- Budget of $25/month covers GitHub Actions minutes and storage beyond the free tier.
-- No corporate GitHub membership yet (planned for future).
+- Use [budget/tracking.md](../budget/tracking.md) as the single monthly ledger for spending over time.
+- Keep service-level and project-level allocations aligned with [projects/README.md](../projects/README.md).
+- Optional secondary-account references should remain out of active spending scope unless explicitly enabled.
 
 ---
 

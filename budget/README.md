@@ -1,39 +1,52 @@
-# 💰 Financial Control Dashboard
+# 💰 Personal Budget Dashboard
 
-Central budget governance for project delivery across portfolios.
-
----
-
-## Monthly Budget Baseline
-
-| Item | Account | Cost | Status |
-|---|---|---:|---|
-| Copilot Pro | donnyandjoern-debug (Mac) | $10 | ✅ Active |
-| Copilot Pro | Joern _(account pending creation)_ | $10 | 🟡 Planned |
-| GitHub usage budget (Actions, Packages, Codespaces) | donnyandjoern-debug | $25 | ✅ Active |
-| **Total (current)** |  | **$35 / month** |  |
-| **Total (planned)** |  | **$45 / month** |  |
+Service-category budget control for `donnyandjoern-debug` GitHub operations.
 
 ---
 
-## Budget Allocation by Portfolio
+## Monthly Budget Baseline by Service
 
-| Portfolio | Monthly Allocation | Actual Spend | Variance |
+| Service Category | Monthly Budget | Current Actual (Month) | Variance | Notes |
+|---|---:|---:|---:|---|
+| GitHub Copilot | $10 | $10 | $0 | Copilot Pro active |
+| GitHub Actions | $5 | $0 | -$5 | Estimate — update from billing |
+| GitHub Packages | $3 | $0 | -$3 | Estimate — update from billing |
+| GitHub Codespaces | $7 | $0 | -$7 | Estimate — update from billing |
+| Other paid GitHub features / reserve | $10 | $0 | -$10 | Flexible reserve |
+| **Total** | **$35** | **$10** | **-$25** | Baseline aligned to owner-only scope |
+
+---
+
+## Spending Over Time
+
+Use the ledger for month-by-month updates:
+
+- [Monthly spend summary](./tracking.md#a-monthly-spend-summary-by-month)
+- [Monthly spend by service](./tracking.md#b-monthly-spend-by-service-category)
+- [Project/repository allocation and actuals](./tracking.md#c-monthly-projectrepository-budget-allocation-and-actuals)
+- [Time by project/repository over time](./tracking.md#d-time-tracking-by-projectrepository-over-time)
+
+---
+
+## Project Allocation Snapshot
+
+| Tracked Project Group | Monthly Allocation | Current Actual | Variance |
 |---|---:|---:|---:|
 | Hoppe-home | $0 | $0 | $0 |
 | Hoppe-GitHub | $0 | $0 | $0 |
 | **Total** | **$0** | **$0** | **$0** |
 
-> Keep project-level spend and variance updated in [tracking.md](./tracking.md).
+> Update project-level amounts in [tracking.md](./tracking.md) and [projects/README.md](../projects/README.md).
 
 ---
 
-## Financial Reporting Rules
+## Budget Operating Rules
 
-1. Allocate monthly budget by project before work starts.
-2. Track spend by repository and compare against allocation.
-3. Record Copilot coding/chat hours as labor input for each project.
-4. Review variance at least once per month and adjust allocations.
+1. Keep one owner-only monthly baseline.
+2. Track spending by service category and month.
+3. Allocate budget and actual spending by project/repository.
+4. Record monthly time spent by project/repository.
+5. Mark unknown amounts as estimates until confirmed from billing.
 
 ---
 

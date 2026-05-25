@@ -1,12 +1,12 @@
-# 📁 Project Portfolio Dashboard
+# 📁 Tracked Projects Dashboard
 
-This is the enterprise-style reporting dashboard for open projects, budget allocation, and delivery status.
+Owner-focused dashboard for tracked projects, budget allocation, and time-by-repository rollups.
 
 ---
 
-## Portfolio Overview
+## Tracked Project Groups
 
-| Portfolio | Owner | Open Projects | Budget Allocation | Hours Allocation | Detail |
+| Project Group | Owner | Open Projects | Monthly Budget Allocation | Time Tracking | Detail |
 |---|---|---:|---:|---|---|
 | Hoppe-home | donnyandjoern-debug | 0 | $0 | ✅ Tracked | [View](./hoppe-home.md) |
 | Hoppe-GitHub | donnyandjoern-debug | 0 | $0 | ✅ Tracked | [View](./hoppe-github.md) |
@@ -14,17 +14,15 @@ This is the enterprise-style reporting dashboard for open projects, budget alloc
 
 ---
 
-## Open Projects Dashboard
+## Open Projects
 
-> Use this table for active execution and budget control.
-
-| Project | Portfolio | Repository | Status | Monthly Budget | Budget Used | Hours (Month) | Notes |
+| Project | Project Group | Repository | Status | Monthly Budget | Actual Spend (Month) | Hours (Month) | Notes |
 |---|---|---|---|---:|---:|---:|---|
 | _(add project)_ | Hoppe-home / Hoppe-GitHub | `org/repo` | 🟢 On Track / 🟡 At Risk / 🔴 Blocked | $0 | $0 | 0h | |
 
 ---
 
-## Pipeline Views
+## Pipeline Views (Optional)
 
 ### Planned
 
@@ -42,10 +40,11 @@ This is the enterprise-style reporting dashboard for open projects, budget alloc
 
 ## Reporting Standard
 
-1. Track every active project with a clear repo owner and status.
-2. Maintain monthly budget allocation and actual spend by project.
-3. Record coding/chat work hours in [budget/tracking.md](../budget/tracking.md).
-4. Review dashboard weekly to keep project and budget status accurate.
+1. Track each active project with clear status and repository.
+2. Keep monthly budget allocation and actual spending per project/repo.
+3. Keep monthly time spent by project/repo in [budget/tracking.md](../budget/tracking.md).
+4. Reconcile totals between project pages and the budget ledger each month.
+5. Keep this dashboard private and owner-focused.
 
 ---
 
