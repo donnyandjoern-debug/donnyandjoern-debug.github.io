@@ -1,32 +1,43 @@
-# 👥 GitHub Accounts — Family Hoppe
+# 👥 GitHub Accounts (Owner-Only Tracking Scope)
 
-Overview of all GitHub accounts used by Family Hoppe.
+This private repository tracks account operations for `donnyandjoern-debug` first.
 
 ---
 
-## Accounts
+## Active Tracking Scope
 
 | Account | Purpose | Details |
 |---|---|---|
-| [donnyandjoern-debug](./family-hoppe.md) | Main family account — Mac & primary Copilot workspace | [→ Details](./family-hoppe.md) |
-| Joern _(account pending creation)_ | Secondary account — Windows VS Code workspace | [→ Details](./joern-hoppe.md) |
+| [donnyandjoern-debug](./family-hoppe.md) | Primary tracked owner account for this dashboard | [→ Details](./family-hoppe.md) |
 
 ---
 
-## Organisation: Hoppe-home
+## Optional Future Context (Not in Active Tracking Scope)
 
-All shared project code is kept under the **[Hoppe-home](https://github.com/Hoppe-home)** organisation.  
-This personal repository (`donnyandjoern-debug/personal`) is for personal data, reference notes, and the Family Hoppe knowledge base only.
+| Account | Status | Details |
+|---|---|---|
+| [Joern reference account](./joern-hoppe.md) | Optional / future reference only | Not currently included in active spending tracking |
 
 ---
 
-## Connecting Both Accounts
+## Privacy and Access Intent
 
-Both accounts collaborate on the same projects inside Hoppe-home:
+This repository is private and intended for owner use only:
 
-1. Add `Joern@Hoppe.home` as a member of the Hoppe-home organisation.
-2. Use GitHub Copilot on each account independently (each has its own Pro seat).
-3. Reference [guides/copilot.md](../guides/copilot.md) for multi-account Copilot workflow tips.
+- Default audience: `donnyandjoern-debug`
+- Stores personal GitHub settings, budget, spending, and project/time tracking notes
+- Not intended as a general family/shared financial repository
+- Access should be shared only when explicitly needed
+
+---
+
+## General GitHub Settings to Track
+
+- Billing plan and monthly paid-service baseline
+- Copilot status (plan, seat, renewal timing)
+- 2FA/security posture (2FA enabled, recovery methods validated)
+- Primary organization memberships and access level
+- Primary devices/editors used for GitHub operations
 
 ---
 

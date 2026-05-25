@@ -1,11 +1,13 @@
-# Joern (Windows VS Code Account) — Planned
+# Joern Account Reference — Optional Future Context
 
-## Identity
+> Not currently in active tracking scope for this private owner dashboard.
+
+## Reference Identity (Future Use)
 
 | Field | Value |
 |---|---|
 | GitHub username | _(to be decided — must use alphanumeric characters and hyphens only, e.g. `joern-hoppe`)_ |
-| Role | Secondary / Windows workspace account |
+| Role | Optional secondary workspace account (future) |
 | Primary device | Windows PC |
 | Primary editor | VS Code (Windows) |
 | Organisation | [Hoppe-home](https://github.com/Hoppe-home) |
@@ -17,23 +19,19 @@
 | Plan | Cost | Status | Notes |
 |---|---|---|---|
 | GitHub Free (base) | $0 / month | Active | Unlimited public repos |
-| **Copilot Pro** | **$10 / month** | 🟡 Planned | To be activated for Windows VS Code workflow |
+| **Copilot Pro** | **$10 / month** | 🟡 Planned | Include in budget only if activated later |
 | **Total** | **$10 / month** | Planned | |
 
 ---
 
-## Purpose
+## Scope Note
 
-This account is the dedicated Windows workspace for Joern, used alongside the main Family Hoppe account:
-
-- Work on the same Hoppe-home projects from a Windows PC
-- Use GitHub Copilot Pro independently on Windows VS Code
-- Collaborate with `donnyandjoern-debug` inside the Hoppe-home organisation
-- Keep code clean, professional, and precise across both machines
+This page is reference-only.
+Do not treat this account as active for spending or time tracking unless the owner explicitly decides to add it.
 
 ---
 
-## Setup Checklist
+## If Activated Later
 
 - [ ] Create the GitHub account for `Joern@Hoppe.home`
 - [ ] Activate Copilot Pro ($10/month)
@@ -47,8 +45,8 @@ This account is the dedicated Windows workspace for Joern, used alongside the ma
 
 ## Notes
 
-- This account should **not** be the owner of Hoppe-home — keep it as a member.
-- Personal data for this account can be stored in a separate `personal` repo under this account if needed.
+- Keep this account separate from the primary owner-only dashboard scope.
+- If activated, mark the exact start month before adding any budget entries.
 
 ---
 

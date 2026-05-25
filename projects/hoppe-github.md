@@ -1,40 +1,48 @@
-# 🏢 Hoppe-GitHub Portfolio Dashboard
+# 🏢 Hoppe-GitHub Tracked Projects Dashboard
 
-Enterprise dashboard for projects tracked under the Hoppe-GitHub portfolio.
+Owner-managed project tracking for repositories under Hoppe-GitHub.
 
 ---
 
-## Portfolio Summary
+## Project Group Summary
 
 | Field | Value |
 |---|---|
-| Portfolio Name | Hoppe-GitHub |
+| Project Group | Hoppe-GitHub |
 | Owner | `donnyandjoern-debug` |
-| Primary Purpose | Project delivery with budget and effort transparency |
-| Reporting Scope | Open projects, spend allocation, and hours by repository |
+| Primary Purpose | Track project delivery with budget/spending and time transparency |
+| Reporting Scope | Project status, budget allocation, actual spending, and time by repository |
+
+---
+
+## Privacy and Scope
+
+- This private page is part of the owner-only dashboard.
+- Track only projects and spending/time data relevant to `donnyandjoern-debug`.
+- Do not use this page as a shared family ledger.
 
 ---
 
 ## Open Projects
 
-| Project | Repository | Status | Monthly Budget | Budget Used | Hours (Month) | Owner |
+| Project | Repository | Status | Monthly Budget | Actual Spend (Month) | Hours (Month) | Owner |
 |---|---|---|---:|---:|---:|---|
 | _(add project)_ | `Hoppe-GitHub/repo-name` | 🟢 On Track / 🟡 At Risk / 🔴 Blocked | $0 | $0 | 0h | |
 
 ---
 
-## Financial Allocation
+## Budget + Spending Rollup
 
 | Category | Amount | Notes |
 |---|---:|---|
 | Assigned Monthly Budget | $0 | Set at monthly planning review |
 | Forecasted Spend | $0 | Sum of active project estimates |
 | Actual Spend | $0 | Tracked in [budget/tracking.md](../budget/tracking.md) |
-| Variance | $0 | Forecast - Actual |
+| Variance | $0 | Budget - Actual |
 
 ---
 
-## Work-Hour Allocation (Copilot Sessions)
+## Time Rollup (Copilot Sessions)
 
 | Repository | Coding Hours | Chat Hours | Total Hours | Source |
 |---|---:|---:|---:|---|

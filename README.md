@@ -1,38 +1,42 @@
-# 📊 Personal Portfolio Command Center
+# 📊 Personal GitHub Operations Command Center
 
-> **Enterprise dashboard for admin oversight:** budget control, project status, and Copilot work-hour allocation by repository.
+> Private dashboard for `donnyandjoern-debug` to track GitHub account settings, budget, spending, service usage, and project time.
 
 ---
 
-## Executive Dashboard
+## Executive Dashboard (Owner Scope Only)
 
 | KPI | Current Value | Source |
 |---|---:|---|
-| Active Billing Accounts | 1 active, 1 planned | [Accounts](./accounts/README.md) |
-| Monthly Baseline Spend | $35 current / $45 planned | [Budget Overview](./budget/README.md) |
-| Open Project Portfolios | 2 (Hoppe-home, Hoppe-GitHub) | [Projects Dashboard](./projects/README.md) |
-| Time Allocation Tracking | Enabled (per repo + per project) | [Tracking Ledger](./budget/tracking.md) |
+| Active Account in Scope | 1 (`donnyandjoern-debug`) | [Accounts](./accounts/README.md) |
+| Monthly Budget Baseline | $35 planned baseline | [Budget Dashboard](./budget/README.md) |
+| Tracked Services | Copilot, Actions, Packages, Codespaces, reserve | [Budget Dashboard](./budget/README.md) |
+| Tracked Projects | 2 tracked project groups (owner-managed) | [Projects Dashboard](./projects/README.md) |
+| Time Tracking | Enabled by project/repository and month | [Tracking Ledger](./budget/tracking.md) |
+| Privacy & Access | Private repo, owner-only by default | [Accounts](./accounts/README.md) |
 
 ---
 
-## What Matters in This Repository
+## Repository Scope (Intentionally Limited)
 
-1. **Financial governance** — budget, spending limits, and variance tracking
-2. **Open project visibility** — portfolio status and budget allocation by project
-3. **Work-hour allocation** — coding/chat effort split by repository and project
-4. **Professional reporting** — clean, auditable tables ready for operational review
+This repository tracks only:
+
+1. **GitHub account + settings operations** for the owner account
+2. **Budget and spending** (including spending over time)
+3. **Usage by service** (Copilot, Actions, Packages, Codespaces, reserve)
+4. **Project allocation + time tracking** by project/repository and month
 
 ---
 
-## Portfolio + Budget Snapshot
+## Current Personal Tracking Snapshot
 
-| Portfolio | Open Projects | Monthly Budget Allocation | Hours Allocation Tracking |
+| Tracked Project Group | Open Projects | Monthly Budget Allocation | Time Allocation Tracking |
 |---|---:|---:|---|
-| [Hoppe-home](./projects/hoppe-home.md) | 0 (to be populated) | $0 (to be allocated) | ✅ |
-| [Hoppe-GitHub](./projects/hoppe-github.md) | 0 (to be populated) | $0 (to be allocated) | ✅ |
+| [Hoppe-home](./projects/hoppe-home.md) | 0 (to update) | $0 (to allocate) | ✅ |
+| [Hoppe-GitHub](./projects/hoppe-github.md) | 0 (to update) | $0 (to allocate) | ✅ |
 | **Total** | **0** | **$0 allocated** | **✅** |
 
-> Update open projects and budget allocations in [projects/README.md](./projects/README.md) and [budget/tracking.md](./budget/tracking.md).
+> Update project allocations in [projects/README.md](./projects/README.md) and month-by-month spending/time in [budget/tracking.md](./budget/tracking.md).
 
 ---
 
@@ -40,8 +44,20 @@
 
 | Section | Purpose |
 |---|---|
-| [👥 Accounts](./accounts/README.md) | Account ownership and access model |
-| [💰 Budget](./budget/README.md) | Baseline budget and monthly spend controls |
-| [📈 Financial + Hours Ledger](./budget/tracking.md) | Monthly spend, project allocations, and Copilot hours |
-| [🗂 Projects Dashboard](./projects/README.md) | Open projects and portfolio-level reporting |
-| [📖 Guides](./guides/README.md) | Workflow standards and Copilot operating guidance |
+| [👥 Accounts](./accounts/README.md) | Owner account details, settings, and privacy/access model |
+| [💰 Budget](./budget/README.md) | Service-category budget baseline, actuals, and variance |
+| [📈 Tracking Ledger](./budget/tracking.md) | Monthly spending over time, by service, by project, and time spent |
+| [🗂 Projects](./projects/README.md) | Tracked projects with budget/time rollups |
+| [📖 Guides](./guides/README.md) | Workflow and operating notes |
+
+---
+
+## Recommended Additional Areas to Track (Within Scope)
+
+- Monthly billing events and invoice notes
+- Subscription/renewal dates (Copilot or other paid GitHub services)
+- Actions/Codespaces/Packages usage observations by month
+- Copilot seat/plan status checks
+- Monthly review checklist for budget and project variance
+- Key GitHub settings/security reminders (2FA, recovery methods, trusted devices)
+- Org/repo ownership map and project priority review cadence
