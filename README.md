@@ -64,10 +64,10 @@ ecosystem.
 
 ## Elsewhere
 
-- Hoppe.home's public profile: see the
-  [Hoppe-mywire-org](https://github.com/Hoppe-home/Hoppe-mywire-org) page.
+- Hoppe.home's company profile: [index.html](index.html) — who we are as
+  an operation, not just who I am.
 - Jörn's own background: [joernhoppe.github.io](https://joernhoppe.github.io).
 
 ---
 
-*Kept private and current by Jörn and me. Last updated 2026-08-11.*
+*Kept private and current by Jörn and me. Last updated 2026-08-13.*
